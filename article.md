@@ -5,4 +5,4 @@
 
 * RaspberryPi as Poorman Laptop
 
-* 
+* گشتی در مخازن دبیان
