@@ -10,22 +10,21 @@
 ```
 $ cat run.c 
 //#include<stdio.h>
-
-
 int main(void){
         //printf("Hell World!\n");
         return 0;
 }
-
-ldd
-why show libc
-$ gcc -Wall run.c -o run -static
-dont link
-
-linker, assembler as,gas
-objdump
-intel compile
-
+$ gcc -Wall run.c -o run
 ```
 
+ldd command show libc
+
+Dont link dynamically
+```
+$ gcc -Wall run.c -o run -static
+```
+
+linker, assembler as, gas
+objdump
+intel compiler
 rust gcc
